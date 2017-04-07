@@ -1,0 +1,19 @@
+{
+    "name": "nomanmade/schema-extended",
+    "description": "Extended Schema builder for Laravel 5.4 (currently only MySQL)",
+    "keywords": ["laravel", "illuminate", "schema", "blueprint", "mysql"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/database": "5.4.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "SchemaExtended\\": "src/SchemaExtended/"
+        }
+    }
+}
